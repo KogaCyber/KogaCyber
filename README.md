@@ -10,7 +10,9 @@ Everything I ship is either an agent, a tool an agent uses, or scaffolding to ma
 
 ## Now
 
-**Building [JARVIS](https://github.com/KogaCyber/jarvis-cli)** — a personal AI agent CLI: tasks, goals, projects, memory, deploys. SQLite-backed, zero deps beyond Python stdlib. The control plane I use every day.
+**Building [jarvis-cli](https://github.com/KogaCyber/jarvis-cli)** — a personal task / project / goal CLI **and a drop-in MCP server** so any agent (Claude Code, Cursor, Codex) can read and write your task list. One file. Zero deps. The control plane I use every day.
+
+**Building [claude-code-cron](https://github.com/KogaCyber/claude-code-cron)** — a tiny single-file scheduler for the people who run `claude -p "..."` on a loop. Stdlib only. Pairs with `jarvis-cli`.
 
 **Shipping [Gamification](https://marsit.uz)** at MarsIT — production education platform with attendance, finance, certificates, SMS payments, and a teacher-rating engine. Daily traffic, live deploys.
 
@@ -26,9 +28,23 @@ Everything I ship is either an agent, a tool an agent uses, or scaffolding to ma
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/KogaCyber/jarvis-cli"><b>jarvis-cli</b></a><br />
-      <sub>Personal AI agent CLI — tasks, goals, projects, memory</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=ai%20agent%20%7C%20cli&labelColor=0ea5e9&color=111827" alt="focus ai agent cli" /><br />
+      <sub>Personal task/project/goal CLI + drop-in MCP server. One file, zero deps.</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=mcp%20%7C%20agent%20memory&labelColor=0ea5e9&color=111827" alt="focus mcp agent memory" /><br />
       <img src="https://img.shields.io/github/stars/KogaCyber/jarvis-cli?style=flat-square&label=stars&color=f59e0b" alt="stars" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/KogaCyber/claude-code-cron"><b>claude-code-cron</b></a><br />
+      <sub>Tiny scheduler for AI agent loops. Stdlib-only. Pairs with jarvis-cli.</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=scheduler%20%7C%20agent%20loops&labelColor=ef4444&color=111827" alt="focus scheduler" /><br />
+      <img src="https://img.shields.io/github/stars/KogaCyber/claude-code-cron?style=flat-square&label=stars&color=f59e0b" alt="stars" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/KogaCyber/youtube-shorts-autopilot"><b>youtube-shorts-autopilot</b></a><br />
+      <sub>End-to-end Shorts pipeline: Claude script → Flux images → TTS → FFmpeg → upload</sub><br />
+      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=content%20automation&labelColor=fb923c&color=111827" alt="focus content automation" /><br />
+      <img src="https://img.shields.io/github/stars/KogaCyber/youtube-shorts-autopilot?style=flat-square&label=stars&color=f59e0b" alt="stars" />
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/KogaCyber/legislative-entropy"><b>legislative-entropy</b></a><br />
@@ -45,10 +61,8 @@ Everything I ship is either an agent, a tool an agent uses, or scaffolding to ma
       <img src="https://img.shields.io/github/stars/KogaCyber/ai-fact-bot?style=flat-square&label=stars&color=f59e0b" alt="stars" />
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/KogaCyber/film-bot"><b>film-bot</b></a><br />
-      <sub>Telegram film recommender</sub><br />
-      <img src="https://img.shields.io/static/v1?style=for-the-badge&label=focus&message=telegram%20%7C%20bot&labelColor=fb923c&color=111827" alt="focus telegram bot" /><br />
-      <img src="https://img.shields.io/github/stars/KogaCyber/film-bot?style=flat-square&label=stars&color=f59e0b" alt="stars" />
+      <a href="https://github.com/KogaCyber"><b>more →</b></a><br />
+      <sub>Personal agent infrastructure, Telegram automation, side projects</sub><br />
     </td>
   </tr>
 </table>
